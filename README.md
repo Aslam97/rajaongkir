@@ -42,7 +42,7 @@ $getInternationalOrigins = $rajaOngkir->getInternationalOrigins(152, 6); // OK
 // param: country ID. not required
 $getInternationalDestinations = $rajaOngkir->getInternationalDestinations(1); // OK
 
-// not supported for STARTER account. required params ['origin', 'destination', 'weight', 'courier']
+// not supported for STARTER. required params ['origin', 'destination', 'weight', 'courier']
 // optional params ['length', 'width', 'height]
 $getInternationalCost = $rajaOngkir->getInternationalCost([
     'origin' => 152,
