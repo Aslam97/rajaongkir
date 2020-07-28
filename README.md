@@ -9,7 +9,7 @@ $provinces = $rajaOngkir->getProvinces(); // OK
 $province = $rajaOngkir->getProvince(1); // OK
 
 // All cities
-$cities = $rajaOngkir->getCities(21); // OK
+$cities = $rajaOngkir->getCities(); // OK
 // Citites by province ID
 $cities = $rajaOngkir->getCities(21); // OK
 // City by city ID
