@@ -153,7 +153,7 @@ class Rajaongkir
         $config = [
             'base_uri' => $apiUrl,
             'headers' => [
-                'key' => config('govo.rajaongkir.api_key'),
+                'key' => config('rajaongkir.api_key'),
             ],
         ];
 
