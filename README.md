@@ -34,7 +34,7 @@ $getCost = $rajaOngkir->getCost([
     'courier' => 'jne', // for multiple ex: 'jne:tiki:pos'
 ]); // OK
 
-// param 1 = city ID | param 2: province ID. city ID or province ID is not required
+// param 1 = city ID | param 2: province ID. not required
 $getInternationalOrigins = $rajaOngkir->getInternationalOrigins(152, 6); // OK
 
 // param: country ID. not required
