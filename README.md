@@ -65,3 +65,29 @@ $getSupportedCouriers = $rajaOngkir->getSupportedCouriers(); // OK
 // get supported waybill courier for STARTER|PRO|BASIC
 $getSupportedWayBills = $rajaOngkir->getSupportedWayBills(); // OK
 ```
+
+## STARTER
+* Province
+* City
+* Cost
+
+## BASIC
+* Province
+* City
+* Cost
+* International Origin
+* International Destination
+* International Cost
+* Currency
+* Waybill
+
+## PRO
+* Province
+* City
+* Subdistricts
+* Cost
+* International Origin
+* International Destination
+* International Cost
+* Currency
+* Waybill
