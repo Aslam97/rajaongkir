@@ -57,7 +57,7 @@ $getCurrency = $rajaOngkir->getCurrency(); // OK
 // param 1: no resi, param 2: courier
 $getWaybill = $rajaOngkir->getWaybill('SOCAG00183235715', 'jne'); // OK
 
-|| HELPER ||
+// || HELPER ||
 // get all courier list
 $courier = $rajaOngkir->getCouriersList(); // OK
 // get supported courier for STARTER|PRO|BASIC
