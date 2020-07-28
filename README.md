@@ -2,7 +2,7 @@
 Advanced Rajaongkir API with Guzzle. Support for all types of accounts. PRO, BASIC and STARTER
 
 ### Penggunaan
-```
+```php
 // All provinces
 $provinces = $rajaOngkir->getProvinces(); // OK
 // province by province ID
