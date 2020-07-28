@@ -12,7 +12,12 @@ class Rajaongkir
 
     const POST_REQUEST = 'POST';
     const GET_REQUEST = 'GET';
-
+    
+    /**
+     * accountType
+     *
+     * @var mixed
+     */
     protected $accountType;
 
     /**
@@ -148,7 +153,7 @@ class Rajaongkir
         $config = [
             'base_uri' => $apiUrl,
             'headers' => [
-                'key' => config('rajaongkir.api_key'),
+                'key' => config('govo.rajaongkir.api_key'),
             ],
         ];
 
@@ -219,10 +224,10 @@ class Rajaongkir
     /**
      * Menampilkan kecamatan berdasarkan id kota
      *
-     * @param  mixed $id
+     * @param  mixed $city
      * @return void
      */
-    public function getSubdistricts($id)
+    public function getSubdistricts($city)
     {
         if ($this->accountType === self::STARTER || $this->accountType === self::BASIC) {
             return $this->formattedErrors(
@@ -231,7 +236,7 @@ class Rajaongkir
             );
         }
 
-        return $this->request('subdistrict', compact('id'));
+        return $this->request('subdistrict', compact('city'));
     }
 
     /**
