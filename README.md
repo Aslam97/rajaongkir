@@ -23,7 +23,8 @@ $getSubdistrict = $rajaOngkir->getSubdistrict(1); // OK
 // required for PRO ['origin', 'originType', 'destination', 'destinationType', 'weight', 'courier']
 // optional for PRO ['length', 'width', 'height', 'diameter'] in cm
 // required for BASIC/STARTER ['origin', 'destination', 'weight', 'courier']
-// ex: city to subdistrict (kota ke kecamatan), subdistrict to subdistrict (kecamatan ke kecamatan), atau city to city (kota ke kota).
+// ex: city to subdistrict (kota ke kecamatan), subdistrict to subdistrict (kecamatan ke kecamatan), 
+// atau city to city (kota ke kota).
 $getCost = $rajaOngkir->getCost([
     'origin' => 501,
     'originType' => 'city',
