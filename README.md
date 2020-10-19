@@ -1,5 +1,5 @@
 # Rajaongkir
-Advanced Rajaongkir API with Guzzle. Support for all types of accounts. PRO, BASIC and STARTER
+Advanced Rajaongkir API with Guzzle. Support for all types of accounts. PRO, BASIC and STARTER **TESTED**
 
 ### Penggunaan
 ```php
